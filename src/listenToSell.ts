@@ -257,8 +257,8 @@ async function startPriceMonitor() {
 }
 
 // Start the monitor
-// console.log("Starting price monitor...");
-// startPriceMonitor().catch(error => {
-//     console.error("Error starting price monitor:", error);
-//     process.exit(1);
-// }); 
+console.log("Starting price monitor...");
+startPriceMonitor().catch(error => {
+    console.error("Error starting price monitor:", error);
+    process.exit(1);
+}); 

@@ -172,7 +172,7 @@ const init = async (rpcEndPoint: string, payer: string, solIn: number, devAddr: 
                     } catch (error) {
                         console.error("Buy error:", error);
                     } finally {
-                        isBuying = false;  // 确保标志被重置
+                        isBuying = false; 
                     }
                 }
             },
