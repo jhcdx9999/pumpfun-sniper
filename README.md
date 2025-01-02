@@ -3,23 +3,47 @@
 *Forked from whistledev411*
 
 You can automatically snipe and trade tokens on pump.fun with advanced buy and sell strategies.
+
 You can filter tokens by creator or token ticker/symbol.
 
 ## ✨ Features
 
-### 🛍️ Buy Features
+### ➡️ Buy Features
 - Filter tokens by creator wallet address
 - Filter tokens by token ticker/symbol
 - Support for Geyser(GRPC) mode for faster monitoring
 - Support for NextBlock service for faster buying
 - WebSocket and HTTP connection support
 
-### 💰 Sell Features
+### ⬅️ Sell Features
 - Automatic price monitoring
 - Configurable sell multiplier (e.g., sell at 2x)
 - Configurable sell ratio (e.g., sell 50% of holdings)
 - Adjustable slippage tolerance
 - Automatic removal of sold tokens from monitoring
+
+## 🚀 Usage
+
+### Installation
+```bash
+npm install
+```
+
+### Running the Bot
+1. Test trading functionality:
+```bash
+npm run test
+```
+
+2. Start the main sniper bot:
+```bash
+npm run start
+```
+
+3. Start the sell listener:
+```bash
+npm run start_listen_sell
+```
 
 ## ⚙️ Configuration
 
